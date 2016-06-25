@@ -12,6 +12,22 @@
 		27000E631D1DE50100E34439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27000E611D1DE50100E34439 /* Main.storyboard */; };
 		27000E651D1DE50100E34439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27000E641D1DE50100E34439 /* Assets.xcassets */; };
 		27000E681D1DE50100E34439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27000E661D1DE50100E34439 /* LaunchScreen.storyboard */; };
+		27000E721D1DE52000E34439 /* LastVideosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27000E6F1D1DE52000E34439 /* LastVideosModel.swift */; };
+		27000E731D1DE52000E34439 /* LastVideosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27000E701D1DE52000E34439 /* LastVideosTableViewController.swift */; };
+		27000E741D1DE52000E34439 /* LastVideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27000E711D1DE52000E34439 /* LastVideosTableViewCell.swift */; };
+		27000E761D1DED1100E34439 /* LastVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27000E751D1DED1100E34439 /* LastVideos.swift */; };
+		27000E9A1D1E089600E34439 /* VideoDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27000E991D1E089600E34439 /* VideoDetailsTableViewController.swift */; };
+		27277E731D1EE216003AB9A5 /* PlaylistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E721D1EE216003AB9A5 /* PlaylistModel.swift */; };
+		27277E751D1EE2E3003AB9A5 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E741D1EE2E3003AB9A5 /* Playlist.swift */; };
+		27277E771D1EE8FD003AB9A5 /* PlaylistsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E761D1EE8FD003AB9A5 /* PlaylistsTableViewController.swift */; };
+		27277E791D1EE916003AB9A5 /* PlaylistsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E781D1EE916003AB9A5 /* PlaylistsTableViewCell.swift */; };
+		27277E7B1D1EF097003AB9A5 /* PlaylistVideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E7A1D1EF097003AB9A5 /* PlaylistVideosTableViewCell.swift */; };
+		27277E7D1D1EF0B1003AB9A5 /* PlaylistVideosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E7C1D1EF0B1003AB9A5 /* PlaylistVideosTableViewController.swift */; };
+		27277E7F1D1EF0F0003AB9A5 /* PlaylistVideosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E7E1D1EF0F0003AB9A5 /* PlaylistVideosModel.swift */; };
+		27277E811D1EF0FE003AB9A5 /* PlaylistVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E801D1EF0FE003AB9A5 /* PlaylistVideos.swift */; };
+		27277E861D1F00DD003AB9A5 /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E851D1F00DD003AB9A5 /* ChannelModel.swift */; };
+		27277E881D1F00ED003AB9A5 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E871D1F00ED003AB9A5 /* Channel.swift */; };
+		2951812529057229D32B8FD5 /* Pods_iTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609C535A13548C77BD5CD38D /* Pods_iTube.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +38,24 @@
 		27000E641D1DE50100E34439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27000E671D1DE50100E34439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27000E691D1DE50100E34439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27000E6F1D1DE52000E34439 /* LastVideosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastVideosModel.swift; sourceTree = "<group>"; };
+		27000E701D1DE52000E34439 /* LastVideosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastVideosTableViewController.swift; sourceTree = "<group>"; };
+		27000E711D1DE52000E34439 /* LastVideosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastVideosTableViewCell.swift; sourceTree = "<group>"; };
+		27000E751D1DED1100E34439 /* LastVideos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastVideos.swift; sourceTree = "<group>"; };
+		27000E991D1E089600E34439 /* VideoDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailsTableViewController.swift; sourceTree = "<group>"; };
+		27277E721D1EE216003AB9A5 /* PlaylistModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistModel.swift; sourceTree = "<group>"; };
+		27277E741D1EE2E3003AB9A5 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		27277E761D1EE8FD003AB9A5 /* PlaylistsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewController.swift; sourceTree = "<group>"; };
+		27277E781D1EE916003AB9A5 /* PlaylistsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistsTableViewCell.swift; sourceTree = "<group>"; };
+		27277E7A1D1EF097003AB9A5 /* PlaylistVideosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistVideosTableViewCell.swift; sourceTree = "<group>"; };
+		27277E7C1D1EF0B1003AB9A5 /* PlaylistVideosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistVideosTableViewController.swift; sourceTree = "<group>"; };
+		27277E7E1D1EF0F0003AB9A5 /* PlaylistVideosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistVideosModel.swift; sourceTree = "<group>"; };
+		27277E801D1EF0FE003AB9A5 /* PlaylistVideos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistVideos.swift; sourceTree = "<group>"; };
+		27277E851D1F00DD003AB9A5 /* ChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		27277E871D1F00ED003AB9A5 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		369B8AE6FB4D442DB59360C7 /* Pods-iTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTube/Pods-iTube.release.xcconfig"; sourceTree = "<group>"; };
+		609C535A13548C77BD5CD38D /* Pods_iTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773F57B4C6AFF55D8A2E7E4D /* Pods-iTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTube/Pods-iTube.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2951812529057229D32B8FD5 /* Pods_iTube.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1CDE8EA8BB1D6304B71A5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				773F57B4C6AFF55D8A2E7E4D /* Pods-iTube.debug.xcconfig */,
+				369B8AE6FB4D442DB59360C7 /* Pods-iTube.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		27000E511D1DE50100E34439 = {
 			isa = PBXGroup;
 			children = (
 				27000E5C1D1DE50100E34439 /* iTube */,
 				27000E5B1D1DE50100E34439 /* Products */,
+				0F1CDE8EA8BB1D6304B71A5E /* Pods */,
+				431416A52E9DC6A3687BA58F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +101,60 @@
 			isa = PBXGroup;
 			children = (
 				27000E5D1D1DE50100E34439 /* AppDelegate.swift */,
+				27277E821D1EF158003AB9A5 /* Controllers */,
+				27277E831D1EF16B003AB9A5 /* Model */,
+				27277E841D1EF174003AB9A5 /* Supporting Files */,
+			);
+			path = iTube;
+			sourceTree = "<group>";
+		};
+		27277E821D1EF158003AB9A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				27000E5F1D1DE50100E34439 /* ViewController.swift */,
+				27000E701D1DE52000E34439 /* LastVideosTableViewController.swift */,
+				27277E7A1D1EF097003AB9A5 /* PlaylistVideosTableViewCell.swift */,
+				27277E7C1D1EF0B1003AB9A5 /* PlaylistVideosTableViewController.swift */,
+				27000E711D1DE52000E34439 /* LastVideosTableViewCell.swift */,
+				27277E761D1EE8FD003AB9A5 /* PlaylistsTableViewController.swift */,
+				27277E781D1EE916003AB9A5 /* PlaylistsTableViewCell.swift */,
+				27000E991D1E089600E34439 /* VideoDetailsTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		27277E831D1EF16B003AB9A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27000E6F1D1DE52000E34439 /* LastVideosModel.swift */,
+				27277E721D1EE216003AB9A5 /* PlaylistModel.swift */,
+				27277E851D1F00DD003AB9A5 /* ChannelModel.swift */,
+				27277E871D1F00ED003AB9A5 /* Channel.swift */,
+				27277E741D1EE2E3003AB9A5 /* Playlist.swift */,
+				27000E751D1DED1100E34439 /* LastVideos.swift */,
+				27277E7E1D1EF0F0003AB9A5 /* PlaylistVideosModel.swift */,
+				27277E801D1EF0FE003AB9A5 /* PlaylistVideos.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		27277E841D1EF174003AB9A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				27000E611D1DE50100E34439 /* Main.storyboard */,
 				27000E641D1DE50100E34439 /* Assets.xcassets */,
 				27000E661D1DE50100E34439 /* LaunchScreen.storyboard */,
 				27000E691D1DE50100E34439 /* Info.plist */,
 			);
-			path = iTube;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		431416A52E9DC6A3687BA58F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				609C535A13548C77BD5CD38D /* Pods_iTube.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27000E6C1D1DE50100E34439 /* Build configuration list for PBXNativeTarget "iTube" */;
 			buildPhases = (
+				9AB5F7A6D952A58B8329FC83 /* [CP] Check Pods Manifest.lock */,
 				27000E561D1DE50100E34439 /* Sources */,
 				27000E571D1DE50100E34439 /* Frameworks */,
 				27000E581D1DE50100E34439 /* Resources */,
+				6B6FE670A251783696201A9F /* [CP] Embed Pods Frameworks */,
+				1D18DE4FC1B079DB5C83C22A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +226,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D18DE4FC1B079DB5C83C22A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTube/Pods-iTube-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B6FE670A251783696201A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iTube/Pods-iTube-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB5F7A6D952A58B8329FC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27000E561D1DE50100E34439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27000E9A1D1E089600E34439 /* VideoDetailsTableViewController.swift in Sources */,
+				27277E7B1D1EF097003AB9A5 /* PlaylistVideosTableViewCell.swift in Sources */,
+				27277E731D1EE216003AB9A5 /* PlaylistModel.swift in Sources */,
+				27277E751D1EE2E3003AB9A5 /* Playlist.swift in Sources */,
+				27277E881D1F00ED003AB9A5 /* Channel.swift in Sources */,
+				27000E721D1DE52000E34439 /* LastVideosModel.swift in Sources */,
+				27000E761D1DED1100E34439 /* LastVideos.swift in Sources */,
+				27277E771D1EE8FD003AB9A5 /* PlaylistsTableViewController.swift in Sources */,
+				27277E861D1F00DD003AB9A5 /* ChannelModel.swift in Sources */,
+				27277E7F1D1EF0F0003AB9A5 /* PlaylistVideosModel.swift in Sources */,
+				27277E811D1EF0FE003AB9A5 /* PlaylistVideos.swift in Sources */,
 				27000E601D1DE50100E34439 /* ViewController.swift in Sources */,
+				27277E791D1EE916003AB9A5 /* PlaylistsTableViewCell.swift in Sources */,
+				27000E741D1DE52000E34439 /* LastVideosTableViewCell.swift in Sources */,
+				27277E7D1D1EF0B1003AB9A5 /* PlaylistVideosTableViewController.swift in Sources */,
 				27000E5E1D1DE50100E34439 /* AppDelegate.swift in Sources */,
+				27000E731D1DE52000E34439 /* LastVideosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +406,7 @@
 		};
 		27000E6D1D1DE50100E34439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773F57B4C6AFF55D8A2E7E4D /* Pods-iTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iTube/Info.plist;
@@ -258,6 +418,7 @@
 		};
 		27000E6E1D1DE50100E34439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369B8AE6FB4D442DB59360C7 /* Pods-iTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iTube/Info.plist;
@@ -286,6 +447,7 @@
 				27000E6E1D1DE50100E34439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
