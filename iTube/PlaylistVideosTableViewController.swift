@@ -15,7 +15,6 @@ class PlaylistVideosTableViewController: UITableViewController, PlaylistVideosMo
     var playlistVideosArray = [PlaylistVideos]()
     var playlistId: String!
     var playlistTitle: String!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         

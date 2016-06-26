@@ -22,7 +22,7 @@ class ChannelModel: NSObject {
     private let urlString: String = "https://www.googleapis.com/youtube/v3/channels"
     private let channelId: String = "UCBJycsmduvYEL83R_U4JriQ"
     
-    var ChannelArray = [Channel]()
+    var channelArray = [Channel]()
     
     var delegate: ChannelModelDelegate!
     
@@ -62,7 +62,7 @@ class ChannelModel: NSObject {
                     
                 }
                 
-                self.ChannelArray = channelResult
+                self.channelArray = channelResult
                 if self.delegate != nil {
                     self.delegate.channelIsReady()
                 }

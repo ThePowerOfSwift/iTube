@@ -17,5 +17,6 @@ class Channel: NSObject {
     var channelNumberOfSuscribers: String = ""
     var channelImageUrl: String = ""
     var channelBannerImageUrl: String = ""
-   
+    var channelId: String = ""
+    
 }

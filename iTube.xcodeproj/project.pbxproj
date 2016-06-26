@@ -27,6 +27,12 @@
 		27277E811D1EF0FE003AB9A5 /* PlaylistVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E801D1EF0FE003AB9A5 /* PlaylistVideos.swift */; };
 		27277E861D1F00DD003AB9A5 /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E851D1F00DD003AB9A5 /* ChannelModel.swift */; };
 		27277E881D1F00ED003AB9A5 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27277E871D1F00ED003AB9A5 /* Channel.swift */; };
+		27DAC2B81D1F3CFC000781EE /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DAC2B71D1F3CFC000781EE /* ChannelViewController.swift */; };
+		27DAC2BA1D1F46D2000781EE /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DAC2B91D1F46D2000781EE /* SearchModel.swift */; };
+		27DAC2BC1D1F5026000781EE /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DAC2BB1D1F5026000781EE /* ChannelTableViewCell.swift */; };
+		27DAC2BE1D1F5033000781EE /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DAC2BD1D1F5033000781EE /* VideoTableViewCell.swift */; };
+		27DAC2C01D1F5044000781EE /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DAC2BF1D1F5044000781EE /* SearchTableViewController.swift */; };
+		27DAC2C41D1F5636000781EE /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DAC2C31D1F5636000781EE /* HMSegmentedControl.m */; };
 		2951812529057229D32B8FD5 /* Pods_iTube.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609C535A13548C77BD5CD38D /* Pods_iTube.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +59,14 @@
 		27277E801D1EF0FE003AB9A5 /* PlaylistVideos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistVideos.swift; sourceTree = "<group>"; };
 		27277E851D1F00DD003AB9A5 /* ChannelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
 		27277E871D1F00ED003AB9A5 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		27DAC2B71D1F3CFC000781EE /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		27DAC2B91D1F46D2000781EE /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		27DAC2BB1D1F5026000781EE /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		27DAC2BD1D1F5033000781EE /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		27DAC2BF1D1F5044000781EE /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		27DAC2C11D1F5634000781EE /* iTube-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTube-Bridging-Header.h"; sourceTree = "<group>"; };
+		27DAC2C21D1F5636000781EE /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		27DAC2C31D1F5636000781EE /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
 		369B8AE6FB4D442DB59360C7 /* Pods-iTube.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTube.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTube/Pods-iTube.release.xcconfig"; sourceTree = "<group>"; };
 		609C535A13548C77BD5CD38D /* Pods_iTube.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTube.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		773F57B4C6AFF55D8A2E7E4D /* Pods-iTube.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTube.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTube/Pods-iTube.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +133,10 @@
 				27277E761D1EE8FD003AB9A5 /* PlaylistsTableViewController.swift */,
 				27277E781D1EE916003AB9A5 /* PlaylistsTableViewCell.swift */,
 				27000E991D1E089600E34439 /* VideoDetailsTableViewController.swift */,
+				27DAC2B71D1F3CFC000781EE /* ChannelViewController.swift */,
+				27DAC2BD1D1F5033000781EE /* VideoTableViewCell.swift */,
+				27DAC2BB1D1F5026000781EE /* ChannelTableViewCell.swift */,
+				27DAC2BF1D1F5044000781EE /* SearchTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -126,6 +144,9 @@
 		27277E831D1EF16B003AB9A5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				27DAC2C21D1F5636000781EE /* HMSegmentedControl.h */,
+				27DAC2C31D1F5636000781EE /* HMSegmentedControl.m */,
+				27DAC2C11D1F5634000781EE /* iTube-Bridging-Header.h */,
 				27000E6F1D1DE52000E34439 /* LastVideosModel.swift */,
 				27277E721D1EE216003AB9A5 /* PlaylistModel.swift */,
 				27277E851D1F00DD003AB9A5 /* ChannelModel.swift */,
@@ -134,6 +155,7 @@
 				27000E751D1DED1100E34439 /* LastVideos.swift */,
 				27277E7E1D1EF0F0003AB9A5 /* PlaylistVideosModel.swift */,
 				27277E801D1EF0FE003AB9A5 /* PlaylistVideos.swift */,
+				27DAC2B91D1F46D2000781EE /* SearchModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -281,6 +303,7 @@
 			files = (
 				27000E9A1D1E089600E34439 /* VideoDetailsTableViewController.swift in Sources */,
 				27277E7B1D1EF097003AB9A5 /* PlaylistVideosTableViewCell.swift in Sources */,
+				27DAC2BE1D1F5033000781EE /* VideoTableViewCell.swift in Sources */,
 				27277E731D1EE216003AB9A5 /* PlaylistModel.swift in Sources */,
 				27277E751D1EE2E3003AB9A5 /* Playlist.swift in Sources */,
 				27277E881D1F00ED003AB9A5 /* Channel.swift in Sources */,
@@ -288,12 +311,17 @@
 				27000E761D1DED1100E34439 /* LastVideos.swift in Sources */,
 				27277E771D1EE8FD003AB9A5 /* PlaylistsTableViewController.swift in Sources */,
 				27277E861D1F00DD003AB9A5 /* ChannelModel.swift in Sources */,
+				27DAC2BC1D1F5026000781EE /* ChannelTableViewCell.swift in Sources */,
 				27277E7F1D1EF0F0003AB9A5 /* PlaylistVideosModel.swift in Sources */,
+				27DAC2B81D1F3CFC000781EE /* ChannelViewController.swift in Sources */,
 				27277E811D1EF0FE003AB9A5 /* PlaylistVideos.swift in Sources */,
 				27000E601D1DE50100E34439 /* ViewController.swift in Sources */,
 				27277E791D1EE916003AB9A5 /* PlaylistsTableViewCell.swift in Sources */,
 				27000E741D1DE52000E34439 /* LastVideosTableViewCell.swift in Sources */,
 				27277E7D1D1EF0B1003AB9A5 /* PlaylistVideosTableViewController.swift in Sources */,
+				27DAC2C41D1F5636000781EE /* HMSegmentedControl.m in Sources */,
+				27DAC2BA1D1F46D2000781EE /* SearchModel.swift in Sources */,
+				27DAC2C01D1F5044000781EE /* SearchTableViewController.swift in Sources */,
 				27000E5E1D1DE50100E34439 /* AppDelegate.swift in Sources */,
 				27000E731D1DE52000E34439 /* LastVideosTableViewController.swift in Sources */,
 			);
@@ -409,10 +437,13 @@
 			baseConfigurationReference = 773F57B4C6AFF55D8A2E7E4D /* Pods-iTube.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MaranathApp.iTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTube/iTube-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -421,10 +452,12 @@
 			baseConfigurationReference = 369B8AE6FB4D442DB59360C7 /* Pods-iTube.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = iTube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MaranathApp.iTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iTube/iTube-Bridging-Header.h";
 			};
 			name = Release;
 		};
